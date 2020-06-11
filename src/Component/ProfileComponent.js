@@ -22,10 +22,11 @@ class Profile extends Component {
         <CardBody>
           <CardTitle>Nirav</CardTitle>
           <CardSubtitle>Student</CardSubtitle>
-          <CardText>
+          <CardTitle>CE-PG1(BE)</CardTitle>
+          {/* <CardText>
             this is nirav sherasiya from morbi area of intrest MERN stace
             developer Graphics deigner and data sciencetist
-          </CardText>
+          </CardText> */}
           <Button className="btn btn-danger">SEE PROFILE</Button>
         </CardBody>
       </Card>
