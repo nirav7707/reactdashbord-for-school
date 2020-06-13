@@ -5,6 +5,7 @@ import ListOF from "./ListComponent";
 import ComponentsList from "./componentlist";
 import Home from "./HomeComponent";
 import Academic from "./Academic";
+import Notice from "./Notice";
 
 function ReanderComponent(props) {
   console.log(props.num);
@@ -12,7 +13,7 @@ function ReanderComponent(props) {
     case 1:
       return <Academic />;
     case 2:
-      return <Home />;
+      return <Notice />;
     case 3:
       return <Home />;
     case 4:

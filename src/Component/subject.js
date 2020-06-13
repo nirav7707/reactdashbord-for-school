@@ -28,9 +28,11 @@ function CardRender(props) {
     </div>
   );
 }
+
 class Subject extends Component {
   constructor(props) {
     super(props);
+
     this.state = {
       subjectlist: sem1
     };
@@ -41,7 +43,7 @@ class Subject extends Component {
     ));
 
     return (
-      <div className="container-fluied">
+      <div className="container-fluied ">
         <div className="row">{sublist}</div>
       </div>
     );

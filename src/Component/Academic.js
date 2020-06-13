@@ -10,6 +10,7 @@ import {
   Button
 } from "reactstrap";
 import Subject from "./subject";
+
 function Rendersubject(props) {
   console.log(props.num);
   switch (props.num) {
