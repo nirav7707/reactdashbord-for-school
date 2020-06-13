@@ -6,18 +6,19 @@ import ComponentsList from "./componentlist";
 import Home from "./HomeComponent";
 import Academic from "./Academic";
 import Notice from "./Notice";
+import TimeTable from "./table";
 
 function ReanderComponent(props) {
   console.log(props.num);
   switch (props.num) {
     case 1:
-      return <Academic />;
+      return <Academic componentnumber={1} />;
     case 2:
       return <Notice />;
     case 3:
-      return <Home />;
+      return <Academic componentnumber={2} />;
     case 4:
-      return <Home />;
+      return <TimeTable />;
     case 5:
       return <Home />;
     case 6:

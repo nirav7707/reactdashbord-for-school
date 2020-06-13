@@ -25,3 +25,7 @@ body {
   border: 2px solid #ff3545;
   box-shadow: 0px 5px 20px #888888;
 }
+
+.lunch {
+  text-align: center;
+}
