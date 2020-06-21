@@ -1,5 +1,6 @@
 body {
   box-sizing: border-box;
+  font-family: "PT Serif", serif;
 }
 
 .App {
@@ -28,4 +29,21 @@ body {
 
 .lunch {
   text-align: center;
+}
+
+.notice {
+  width: 97%;
+  margin: 7px 7px;
+  padding: 7px 7px;
+  border: 1px solid #dc3545;
+  border-left: 10px solid #dc3545;
+}
+.notice:hover {
+  background-color: #f5c6cb;
+}
+.subjectheader {
+  border-bottom: 2px solid #dc3545;
+  padding: 3px;
+  padding-left: 5px;
+  margin-bottom: 10px;
 }

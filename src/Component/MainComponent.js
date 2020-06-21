@@ -7,6 +7,7 @@ import Home from "./HomeComponent";
 import Academic from "./Academic";
 import Notice from "./Notice";
 import TimeTable from "./table";
+import Interaction from "./interaction";
 
 function ReanderComponent(props) {
   console.log(props.num);
@@ -28,7 +29,7 @@ function ReanderComponent(props) {
     case 8:
       return <Home />;
     case 9:
-      return <Home />;
+      return <Interaction />;
 
     default:
       return <div />;

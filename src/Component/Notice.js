@@ -8,21 +8,14 @@ class Notice extends Component {
     this.state = {
       notices
     };
-    this.handleclass = this.handleclass.bind(this);
-  }
-  handleclass(x) {
-    console.log(x);
-    let classvalue = "badge m-2 ";
-    classvalue += x ? "badge-danger" : "badge-light";
-    return classvalue;
   }
 
   render() {
     const noticesA = this.state.notices.map(notice => (
       <div>
-        <Badge key={notice.id} className={this.handleclass(notice.danger)}>
+        <div className="notice ">
           <h5> {notice.notice}</h5>
-        </Badge>
+        </div>
       </div>
     ));
     return <React.Fragment>{noticesA}</React.Fragment>;

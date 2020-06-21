@@ -47,7 +47,10 @@ class ExamMarks extends Component {
     };
     return (
       <div>
-        <h1>Semester {this.props.num} marks </h1>
+        <h1 className="subjectheader">
+          {" "}
+          <bold>SEMESTER {this.props.num} MARKS</bold>{" "}
+        </h1>
 
         <br />
         <Bar data={data} />
