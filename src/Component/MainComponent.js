@@ -21,14 +21,6 @@ function ReanderComponent(props) {
     case 4:
       return <TimeTable />;
     case 5:
-      return <Home />;
-    case 6:
-      return <Home />;
-    case 7:
-      return <Home />;
-    case 8:
-      return <Home />;
-    case 9:
       return <Interaction />;
 
     default:

@@ -6,17 +6,10 @@ class Header extends Component {
     return (
       <div className="App fixed navshadow">
         <Navbar dark color="danger">
-          <NavbarBrand>Your Name</NavbarBrand>
-          <Nav className="mr-auto">
-            <NavItem>
-              <NavLink>Home</NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink>Aboutus</NavLink>
-            </NavItem>
-          </Nav>
+          <NavbarBrand>Student's name</NavbarBrand>
+
           <Nav className="ml-auto">
-            <Button className="btn btn-primary">Login</Button>
+            <Button className="btn btn-primary">Logout</Button>
           </Nav>
         </Navbar>
       </div>

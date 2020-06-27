@@ -46,7 +46,7 @@ class Subject extends Component {
       <div className="container-fluied ">
         <h1 className="subjectheader">
           {" "}
-          <bold>SEMESTER {this.props.num} SUBJECT</bold>{" "}
+          <bold>SEMESTER {this.props.num} SUBJECTS</bold>{" "}
         </h1>
         <div className="row">{sublist}</div>
       </div>
